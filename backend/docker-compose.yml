@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    restart: always
+    ports: 
+        - 27017:27017
+    volumes: 
+        - ./local/db_data:/data/db
+    networks:
+      - services
+networks:
+  services:
+    external: false
+    name: services

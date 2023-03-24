@@ -1,0 +1,22 @@
+export const Roles = {
+  ADMIN: "admin",
+  OPERATIONAL: "operational",
+  COMERCIAL: "comercial",
+  OPERATIONAL_COMMERCIAL: "operational_commercial",
+  NONE: "none",
+};
+
+export const BUDGET_STATUSES = {
+  APPROVED: 'APPROVED',
+  DRAFT: 'DRAFT',
+  CONFIRMED: 'CONFIRMED',
+  SUBMITTED: 'SUBMITTED',
+  COORDINATION: 'COORDINATION',
+  FINISHED: 'FINISHED',
+  REJECTED:'REJECTED'
+}
+
+export const COORDINATION_STATUSES = {
+  ONGOING: 'ONGOING',
+  FINISHED: 'FINISHED'
+}
